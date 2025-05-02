@@ -1,0 +1,48 @@
+body{
+	background: url(imagens/banner.jpg);
+	margin: 0;
+	font-family: Acme, Arial;
+	font-size: 16px;
+}
+header {
+	width: 100%;
+	background: #D95166;
+	padding: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+header nav {
+	float: right;
+}
+header nav ul {
+	list-style: none;
+}
+header nav ul li {
+	display: inline-block;
+	margin: 15px;
+}
+header nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 800;
+	transition: all .5s;
+}
+header nav ul li a:hover {
+	color: #f00;
+}
+.banner img {
+	width: 100%;
+}
+p {
+	border: 2px solid #666;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	border-radius: 8px;
+	background: #fff;
+	box-shadow: 1px 1px 10px #333;
+	font-weight: 600;
+}
+p a {
+	color: black;
+}
