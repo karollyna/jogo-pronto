@@ -46,3 +46,17 @@ p {
 p a {
 	color: black;
 }
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+}
+.grid .coluna img {
+	width: 100%;
+}
+.grid .coluna {
+	border: 1px solid black;
+	margin: 10px;
+}
+main h1 {
+	text-align: center;
+}
